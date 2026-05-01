@@ -3,15 +3,45 @@
 <head>
     <title>Maddie's Super Cool Website</title>
     <style>
-        .menu {
+        .myHeader {
             background-color: #fefefa;
             padding: 100px;
+        }
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .menuItem {
+            float: left;
+            font-family: Verdana;
+            color: black;
+        }
+
+        .menuItem a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .menuItem a:hover {
+            text-decoration: underline;
+            color: red;
         }
     </style>
 </head>
 <body>
-    <div class="menu">
+    <div class="myHeader">
         <h1 style="text-align: center;">Hi!</h1>
+        <ul class="menu">
+            <li class="menuItem">About</li>
+            <li class="menuItem">Projects</li>
+            <li class="menuItem">Contact</li>
+        </ul>
     </div>
     
 </body>
