@@ -8,7 +8,7 @@
     <meta name="author" content="Madeleine Ng">
     <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    <!--style>
         .myHeader {
             background-color: #fefefa;
             border-bottom: 10px black;
@@ -41,18 +41,43 @@
             text-decoration: underline;
             color: red;
         }
+    </style-->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
     </style>
 </head>
 <body>
-    <div class="myHeader">
+    <!--div class="myHeader"-->
     <!--h1 id="Hi" class="menuItem">Hi!</h1>-->
-        <ul class="menu">
-            <li class="menuItem"><img src="site_logo.png" style="width:50px; height:50px;"></li>
-            <li class="menuItem"><a href="#Hi">About</a></li>
-            <li class="menuItem"><a href="#Hi">Projects</a></li>
-            <li class="menuItem"><a href="#Hi">Contact</a></li>
+        <ul>
+            <li><img src="site_logo.png" style="width:50px; height:50px;"></li>
+            <li><a href="#Hi">About</a></li>
+            <li><a href="#Hi">Projects</a></li>
+            <li><a href="#Hi">Contact</a></li>
         </ul>
-    </div>
+    <!--/div-->
     <!--div style="background-image: url('home_bg.png'); background-size: contain; padding: 10px; margin: 0;">
         <h1 style="text-align: center;"><i>Hello</i></h1>
     </div>-->
