@@ -5,7 +5,7 @@
     <style>
         .myHeader {
             background-color: #fefefa;
-            padding: 100px;
+            padding: 16px;
         }
         .menu {
             list-style-type: none;
@@ -24,7 +24,7 @@
             display: block;
             color: black;
             text-align: center;
-            padding: 16px;
+            padding: 0;
             text-decoration: none;
         }
 
@@ -36,11 +36,11 @@
 </head>
 <body>
     <div class="myHeader" style="float:left;">
-        <h1 style="float: left; text-align: center;">Hi!</h1>
+        <h1 id="Hi" style="float: left; text-align: center;">Hi!</h1>
         <ul class="menu">
-            <li class="menuItem">About</li>
-            <li class="menuItem">Projects</li>
-            <li class="menuItem">Contact</li>
+            <li class="menuItem"><a href="#Hi">About</a></li>
+            <li class="menuItem"><a href="#Hi">Projects</a></li>
+            <li class="menuItem"><a href="#Hi">Contact</a></li>
         </ul>
     </div>
     
