@@ -137,7 +137,8 @@ p.tile {
     font-family: Garamond;
     padding-top: 1vw; 
     padding-left: 6vw;
-    font-size: clamp(1rem, 4vw, 3.5rem)
+    font-size: clamp(1rem, 4vw, 3.5rem);
+    font-style: bold;
 }
 
 @media screen and (max-width: 885px) {
@@ -152,7 +153,7 @@ p.tile {
         float: none;
         position: relative;
     }
-    h1.tile {
+    p.tile {
         position:absolute;
         top: 5vw; 
         left: 0; 
@@ -162,5 +163,6 @@ p.tile {
         color:#fefefa; 
         font-family: Garamond; 
         font-size:8vw;
+        font-style: bold;
     }
 }
