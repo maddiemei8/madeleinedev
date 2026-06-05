@@ -75,7 +75,7 @@ div.splash {
     margin: 3vw 1vw 1vw;
 }
 
-h1.splash {
+.splashHeading {
     font-family: Garamond; 
     font-style: italic;
     font-weight: normal;
@@ -84,7 +84,7 @@ h1.splash {
     padding: 0;
 }
 
-h2.splash {
+.splashSubheading {
     font-family: Garamond; 
     font-size: 4vw; 
     font-weight: normal;
