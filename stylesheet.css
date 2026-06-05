@@ -138,7 +138,7 @@ p.tile {
     padding-top: 1vw; 
     padding-left: 6vw;
     font-size: clamp(1rem, 4vw, 3.5rem);
-    font-style: bold;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 885px) {
@@ -163,6 +163,6 @@ p.tile {
         color:#fefefa; 
         font-family: Garamond; 
         font-size:8vw;
-        font-style: bold;
+        font-weight: bold;
     }
 }
