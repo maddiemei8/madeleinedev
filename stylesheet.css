@@ -148,7 +148,7 @@ h1.tile {
 @media screen and (max-width: 885px) {
     div.tile {
         background-color: #ffadad;
-        margin: 1vw; 
+        margin: 2.5vw 1vw; 
         border-radius:5vw; 
         min-height: 30vw; 
         max-height: 100vw; 
