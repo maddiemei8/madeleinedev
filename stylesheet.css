@@ -149,6 +149,7 @@ div.tile {
     float: left;
     position: relative;
     box-shadow: 1.25vw 1.25vw #e58888;
+    z-index: -1;
 }
 
 p.tile {
