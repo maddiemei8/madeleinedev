@@ -233,3 +233,29 @@ nav > div {
 
 
 /* IV. Responsive Layout Styles */
+
+@media screen and (max-width: 885px) {
+    li a {
+        font-size: clamp(1em, 1.2em, 1.5em);
+        margin: 0 5px;
+    }
+    
+    nav > div { 
+        border-radius:10px; 
+        height: 60px; 
+        padding: 0 2%;
+        box-shadow: 1vw 1vw #004e7a; 
+    }
+
+    .logo {
+        width: 55%;
+        font-size: clamp(2em, 2.75em, 3em);
+    }
+
+    .menu {
+        width: 45%;
+        display: flex;
+        justify-content: right;
+    } 
+
+}
