@@ -8,86 +8,108 @@
     <!--meta name="author" content="Madeleine Ng"-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#fefefa">
-    <link rel="stylesheet" href="css/stylesheet.css">
-</head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Trochut:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <body>
+    <section id="top"></section>
     <nav>
-        <img src="images/site_logo.png" class="logo">
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-        </ul>
+        <div>
+            <a class="logo" href="#top">Madeleine Ng</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-
-    <div class="splash">
-        <p class="splashHeading">Madeleine Ng</p>
-        <p class="splashSubheading"><i>Vancouver Island-based Software Developer.</i></p>
-        <button>Discover</button>
+    
+    <section id="welcomeBanner">
+        <div class="columnHolder">
+            <p class="bannerTxtH1">Vancouver Island-based</p>
+            <p class="bannerTxtH2">Software Design</p>
+        </div>
+        <div class="gridContainer">
+            <div style="z-index: 0;"><img src="textures/mountain1.png" class="mountain"/></div>
+            <div style="z-index: 5;"><img src="textures/mountain2.png" class="mountain"/></div>
+            <div style="z-index: 10;"><img src="textures/mountain3.png" class="mountain"/></div>
+            <div style="z-index: 15;"><img src="textures/mountain4.png" class="mountain"/></div> 
+            <div style="z-index: 20;">
+                <img src="textures/cloudLeft.png" class="cloudL"/>
+                <img src="textures/cloudRight.png" class="cloudR"/>
+            </div> 
+            <div style="z-index: 25;"><img src="textures/oceanLayer.png" class="mountain"/></div>  
+        </div>
+    </section>
+    
+    <div class="treeLayer">
+        <img src="textures/treeGrpLeft.png" class="treeL"/>
+        <img src="textures/treeGrpRight.png" class="treeR"/>
     </div>
     
-    <section>
-        <h1 id="About">About</h1>
-        <div class="two-column">
-            <div>
-                <p>Madeleine Ng is a software developer living on Vancouver 
-                    Island. Growing up in the Pacific Northwest, she believes 
-                    in technology that empowers communities through intentional 
-                    and sustainable design. Madeleine currently attends 
-                    Vancouver Island University as a computer science major. 
-                </p>   
-                <p>Beyond her studies, Madeleine is working on applications 
-                    related to web development, database systems, and 
-                    the implementation of algorithms in software. 
-                    madeleinedev.ca is landing spot for her past projects and 
-                    works in progress. 
-                </p>
-            </div>
-            <div>
-                <img src="images/about_pic.jpg">
+    <section id="About">
+        <div class="flexContainer">
+            <div style="z-index: 50; background-color: #ffffff; padding: 5% 5% 12% 5%;">
+                <h1>About</h1>
+                <div class="flexContainer">
+                    <div class="two-column">
+                        <p>Madeleine Ng is a software developer living on Vancouver 
+                            Island. Growing up in the Pacific Northwest, she believes 
+                            in technology that empowers communities through intentional 
+                            and sustainable design. Madeleine currently attends 
+                            Vancouver Island University as a computer science major. 
+                        </p>   
+                        <p>Beyond her studies, Madeleine is working on applications 
+                            related to web development, database systems, and 
+                            the implementation of algorithms in software. 
+                            madeleinedev.ca is landing spot for her past projects and 
+                            works in progress. 
+                        </p>
+                    </div>
+                    <div class="two-column">
+                        <img src="images/about_pic.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <h1 id="Projects">Projects</h1>
-        <div class="three-column">
-            <div>
-                <p>Game Design</p>
-            </div>
-            <div>
-                <p>Database Applications</p>
-            </div>
-            <div>
-                <p>Algorithm Applications</p>
-            </div>
-        </div>
-        <div class="two-column">
-            <div>
-                <p>Arbor is a single player, text-based game developed as part 
-                   of Software Engineering curriculum. Throughout the game the 
-                   user is faced with different choices that guide the 
-                   overarching story, leading them to either "Good", "Neutral", 
-                   or "Evil" endings.
-                </p>
-                <p>  
-                   Built with PC as a target platform, Arbor is aimed at users 
-                   with a love for the fantasy genre and narrative driven content.
-                </p>
-            </div>
-            <div>
-                <img src="images/arbor.png">
-            </div>
-        </div>
-        <div class="two-column">
-            <div>
-                <p>Ogopogo Supply Management System is a database 
-                    application that provides shipment tracking, search 
-                    functionality, and productivity reporting. Ogopogo's 
-                    main objective is to support retail operational 
-                    processes.
-                </p>
-            </div>
-            <div>
-                <img src="images/ogopogo.png">
+
+    <section id="Projects">
+        <div class="flexContainer">
+            <div style="z-index: 50; background-color: #326274; padding: 5% 5% 10% 5%;">
+                <h1 id="Projects" style="color: #ffffff;">Projects</h1>    
+                <div class="flexContainer">
+                    <div class="two-column-dark">
+                        <img src="images/arbor.png">
+                    </div>
+                    <div class="two-column-dark">
+                        <p>Arbor is a single player, text-based game developed as part 
+                        of Software Engineering curriculum. Throughout the game the 
+                        user is faced with different choices that guide the 
+                        overarching story, leading them to either "Good", "Neutral", 
+                        or "Evil" endings.
+                        </p>
+                        <p>  
+                        Built with PC as a target platform, Arbor is aimed at users 
+                        with a love for the fantasy genre and narrative driven content.
+                        </p>
+                    </div>
+                </div>
+                <div class="flexContainer">
+                    <div class="two-column-dark">
+                        <p>Ogopogo Supply Management System is a database 
+                            application that provides shipment tracking, search 
+                            functionality, and productivity reporting. Ogopogo's 
+                            main objective is to support retail operational 
+                            processes.
+                        </p>
+                    </div>
+                    <div class="two-column-dark">
+                        <img src="images/ogopogo.png">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
