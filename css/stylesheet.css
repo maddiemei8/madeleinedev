@@ -237,7 +237,7 @@ nav > div {
 @media screen and (max-width: 885px) {
     li a {
         font-size: clamp(0.5em, 1em, 1.25em);
-        margin: 0 2px;
+        margin: 0 3px;
     }
     
     nav > div { 
