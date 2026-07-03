@@ -258,4 +258,44 @@ nav > div {
         justify-content: right;
     } 
 
+    .columnHolder {
+        margin: 3%;
+    }
+
+    .gridContainer {
+        grid-template-rows: 
+            20vw 25vw 23vw 5vw 15vw 45vw;
+    }
+
+    .cloudR {
+        width: 16%;
+    }
+
+    .bannerTxtH1 {
+        text-align: center;
+        position: fixed;
+        top: 15vw;
+        font-size: clamp(3em, 4em, 5em);
+        text-shadow: 2px 2px #ffffff;
+        padding: 0 10%;
+        line-height: 1;
+    }
+
+    .bannerTxtH2 {
+        text-align: center;
+        top: 35vw;
+        font-size: clamp(4.8em, 5.8em, 6.8em);
+        text-shadow: 2px 2px #ffffff;
+        padding: 0 10%;
+        line-height: 1;
+
+    }
+
+    .treeL {
+        width: 90%;
+    }
+
+    .treeR {
+        display: none;
+    }
 }

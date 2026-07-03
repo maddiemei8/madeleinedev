@@ -32,15 +32,46 @@
             <p class="bannerTxtH2">Software Design</p>
         </div>
         <div class="gridContainer">
-            <div style="z-index: 0;"><img src="textures/mountain1.png" class="mountain"/></div>
-            <div style="z-index: 5;"><img src="textures/mountain2.png" class="mountain"/></div>
-            <div style="z-index: 10;"><img src="textures/mountain3.png" class="mountain"/></div>
-            <div style="z-index: 15;"><img src="textures/mountain4.png" class="mountain"/></div> 
-            <div style="z-index: 20;">
-                <img src="textures/cloudLeft.png" class="cloudL"/>
-                <img src="textures/cloudRight.png" class="cloudR"/>
+            <div style="z-index: 0;">
+                <picture>
+                    <source srcset="textures/mobileMountain1.png" media="(max-width: 885px)">
+                    <img class="mountain" src="textures/mountain1.png">
+                </picture>
+                </div>
+            <div style="z-index: 5;">
+                <picture>
+                    <source srcset="textures/mobileMountain2.png" media="(max-width: 885px)">
+                    <img class="mountain" src="textures/mountain2.png">
+                </picture>
+            </div>
+            <div style="z-index: 10;">
+                <picture>
+                    <source srcset="textures/mobileMountain3.png" media="(max-width: 885px)">
+                    <img class="mountain" src="textures/mountain3.png">
+                </picture>
+            </div>
+            <div style="z-index: 15;">
+                <picture>
+                    <source srcset="textures/mobileMountain4.png" media="(max-width: 885px)">
+                    <img class="mountain" src="textures/mountain4.png">
+                </picture>
             </div> 
-            <div style="z-index: 25;"><img src="textures/oceanLayer.png" class="mountain"/></div>  
+            <div style="z-index: 20;">
+                <picture>
+                    <source srcset="textures/mobileCloudLeft.png" media="(max-width: 885px)"/>
+                    <img src="textures/cloudLeft.png" class="cloudL"/>
+                </picture>
+                <picture>
+                    <source srcset="textures/mobileCloudRight.png" media="(max-width: 885px)"/>
+                    <img src="textures/cloudRight.png" class="cloudR"/>
+                </picture>
+            </div> 
+            <div style="z-index: 25;">
+                <picture>
+                    <source srcset="textures/mobileOceanLayer.png" media="(max-width: 885px)"/>
+                    <img src="textures/oceanLayer.png" class="mountain"/>
+                </picture>
+            </div>    
         </div>
     </section>
     
