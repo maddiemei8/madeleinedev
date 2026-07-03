@@ -237,7 +237,7 @@ nav > div {
 @media screen and (max-width: 885px) {
     li a {
         font-size: clamp(1em, 1.2em, 1.5em);
-        margin: 0 5px;
+        margin: 0 2px;
     }
     
     nav > div { 
@@ -248,12 +248,12 @@ nav > div {
     }
 
     .logo {
-        width: 55%;
+        width: 60%;
         font-size: clamp(2em, 2.75em, 3em);
     }
 
     .menu {
-        width: 45%;
+        width: 40%;
         display: flex;
         justify-content: right;
     } 
