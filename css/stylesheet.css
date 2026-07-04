@@ -262,6 +262,10 @@ nav > div {
         margin: 5%;
     }
 
+    .flexContainer {
+        display: block;
+    }
+
     .gridContainer {
         grid-template-rows: 
             21vw 27vw 25vw 7vw 15vw 46vw;
