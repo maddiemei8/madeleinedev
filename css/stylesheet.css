@@ -244,6 +244,10 @@ nav > div {
         font-size: clamp(0.5em, 1em, 1.25em);
         margin: 0 3px;
     }
+
+    nav {
+        padding: 2% 4%;
+    }
     
     nav > div { 
         border-radius:10px; 
