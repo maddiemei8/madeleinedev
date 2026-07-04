@@ -264,7 +264,7 @@ nav > div {
 
     .gridContainer {
         grid-template-rows: 
-            12vh 17vh 17vh 3vh 10vh 30vh;
+            20vw 25vw 23vw 5vw 15vw 45vw;
     }
 
     .cloudR {
