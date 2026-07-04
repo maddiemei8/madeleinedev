@@ -235,6 +235,11 @@ nav > div {
 /* IV. Responsive Layout Styles */
 
 @media screen and (max-width: 800px) {
+    h1 {
+        font-size: 10vw; 
+        padding: 10% 0 1.5%;
+    }
+
     li a {
         font-size: clamp(0.5em, 1em, 1.25em);
         margin: 0 3px;
