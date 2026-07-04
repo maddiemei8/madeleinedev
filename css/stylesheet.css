@@ -259,12 +259,12 @@ nav > div {
     } 
 
     .columnHolder {
-        margin: 3%;
+        margin: 5%;
     }
 
     .gridContainer {
         grid-template-rows: 
-            20vw 25vw 23vw 5vw 15vw 45vw;
+            20vw 27vw 25vw 7vw 15vw 50vw;
     }
 
     .cloudR {
