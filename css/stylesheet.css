@@ -257,12 +257,12 @@ nav > div {
     }
 
     .logo {
-        width: 60%;
-        font-size: clamp(2em, 2.5em, 2.75em);
+        width: 55%;
+        font-size: clamp(2em, 2.4em, 2.65em);
     }
 
     .menu {
-        width: 40%;
+        width: 45%;
         display: flex;
         justify-content: right;
     } 
