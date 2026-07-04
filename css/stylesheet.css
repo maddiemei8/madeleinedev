@@ -264,7 +264,7 @@ nav > div {
 
     .gridContainer {
         grid-template-rows: 
-            22vw 28vw 25vw 7vw 15vw 48vw;
+            22vw 28vw 25vw 7vw 15vw 47vw;
     }
 
     .cloudR {
@@ -274,7 +274,7 @@ nav > div {
     .bannerTxtH1 {
         text-align: center;
         position: fixed;
-        top: 10vh;
+        top: 8vh;
         font-size: clamp(3em, 4em, 5em);
         text-shadow: 2px 2px #ffffff;
         padding: 0 10%;
@@ -283,7 +283,7 @@ nav > div {
 
     .bannerTxtH2 {
         text-align: center;
-        top: 23vh;
+        top: 20vh;
         font-size: clamp(4.8em, 5.8em, 6.8em);
         text-shadow: 2px 2px #ffffff;
         padding: 0 10%;
