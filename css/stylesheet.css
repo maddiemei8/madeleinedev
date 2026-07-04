@@ -267,6 +267,14 @@ nav > div {
             21vw 27vw 25vw 7vw 15vw 46vw;
     }
 
+    .two-column {
+        width: 100%;
+    }
+
+    .two-column-dark {
+        width: 100%;
+    }
+
     .cloudR {
         width: 16%;
     }
