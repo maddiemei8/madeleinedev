@@ -253,7 +253,7 @@ nav > div {
         border-radius:10px; 
         height: 60px; 
         padding: 0 2%;
-        box-shadow: 1vw 1vw #004e7a, 1.5vw 1.5vw 8px hsla(210, 3%, 13%, 0.25);
+        box-shadow: 1.2vw 1.2vw #004e7a, 1.75vw 1.75vw 8px hsla(210, 3%, 13%, 0.25);
     }
 
     .logo {
