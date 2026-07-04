@@ -263,7 +263,7 @@ nav > div {
     }
 
     .flexContainer {
-        display: block;
+        flex-direction: column;
     }
 
     .gridContainer {
