@@ -25,31 +25,6 @@ h1 {
     padding: 0 0 1.5% 0;
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #ffffff;
-    font-size: clamp(1em, 1.5em, 1.75em);
-    font-family: Alata;
-    margin: 0 7.5px;
-    text-align: center;
-    text-decoration: none;
-    
-}
-
-li a:hover {
-    text-decoration: underline;
-}
-
-ul {  
-    align-self: right;
-    list-style-type: none;
-    overflow: hidden;
-}
-
 
 /* II. Header Styles */
 
@@ -84,6 +59,28 @@ nav > div {
     width: 60%;
     display: flex;
     justify-content: right;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu a {
+    display: block;
+    color: #ffffff;
+    float: left;
+    font-size: clamp(1em, 1.5em, 1.75em);
+    font-family: Alata;
+    margin: 0 7.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu .icon {
+    padding-top: 7.5px;
+    display: none;
 }
 
 
@@ -240,9 +237,13 @@ nav > div {
         padding: 10% 0 1.5%;
     }
 
-    li a {
-        font-size: clamp(0.5em, 1em, 1.25em);
-        margin: 0 3px;
+    .menu a {
+        display: none;
+    }
+
+    .menu a.icon {
+        display: block;
+        float: right;
     }
 
     nav {
