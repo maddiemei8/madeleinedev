@@ -132,6 +132,49 @@ nav > div {
 
 /* III. Containers */
 
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 8px 8px #4b89a0, 13px 13px 9px hsla(210, 3%, 13%, 0.25);
+    margin: 15% 10% 50%;
+    overflow: hidden;
+    height: 60vh;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    height: 12%;
+}
+
+.tabLeft {
+    display: block;
+    width: 33%;
+    background-color: #0077c0;
+    color: #ffffff;
+    font-family: Alata; 
+    text-align: center;
+}
+
+.tabCentre {
+    display: block;
+    background-color: #004e7a;
+    color: #ffffff;
+    font-family: Alata; 
+    text-align: center;
+    width: 34%;
+}
+
+.tabRight {
+    display: block;
+    background-color: #61beed;
+    color: #ffffff;
+    font-family: Alata; 
+    text-align: center;
+    width: 33%;
+}
+
 .columnHolder {
     display: flex;
     flex-direction: column;
