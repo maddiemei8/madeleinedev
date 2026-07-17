@@ -154,6 +154,29 @@ nav > div {
     align-items: center;
 }
 
+.flexContainer {
+    display:flex;
+    align-items: center;
+}
+
+.dark-section {
+    background-color: #326274;
+    padding: 5% 5% 10% 5%;
+    z-index: 50;
+}
+
+.dark-section-mobile {
+    display: none;
+    background-color: #326274;
+    flex-direction: column;
+    padding: 5% 5% 10% 5%;
+    z-index: 50;
+}
+
+.dark-section > h1 {
+    color: #ffffff;
+}
+
 .two-column {
     width: 50%;
     overflow: hidden;
@@ -363,5 +386,14 @@ nav > div {
 
     .treeR {
         display: none;
+    }
+
+
+    .dark-section {
+        display: none;
+    }
+
+    .dark-section-mobile {
+        display: flex;
     }
 }
